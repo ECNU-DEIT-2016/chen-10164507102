@@ -10,3 +10,27 @@ body {
 * {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
+
+.color{
+  width:100px;
+  height:100px;
+  background:red;
+  animation:myfirst 5s;
+  -moz-animation:myfirst 5s;
+  -webkit-animation:myfirst 5s;
+  -o-animation:myfirst 5s;
+  float:left;
+}
+
+@keyframes myfirst{
+  from{background:red;}
+  to{background:yellow}
+}
+@-moz-keyframes myfirst{
+  from{background:red;}
+  to{background:yellow}
+}
+@-o-keyframes myfirst{
+  from{background:red;}
+  to{background:yellow}
+}
