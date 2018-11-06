@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  line-height: 3em;
+}
+
+li:hover {
+  background-color: #EEEEEE;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+body{
+  background-color:#FFFFFF;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+div {
+  padding: 20px;
+  text-align: center;
+  height: 20px;
+}
+
